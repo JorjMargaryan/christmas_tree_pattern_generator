@@ -63,7 +63,6 @@ Alternatively, you can run the tests directly from your IDE by executing the `re
 - Ensure your Python environment is correctly configured in VSCode.
 
 ## Viewing the Test Report
-
 ### Locate the HTML Report:
 Once the tests are complete, navigate to the `reports_` directory in project folder. Find the HTML report file there, typically named something like `report_DD-MM-YYYY_HH-MM-SS.html`.
 
