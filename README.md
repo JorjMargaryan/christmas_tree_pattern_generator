@@ -7,7 +7,6 @@
 - [Installation](#installation)
 - [Running the Tests](#running-the-tests)
 - [Viewing the Test Report](#viewing-the-test-report)
-- [Project Documentation](#project-documentation)
 
 ## Introduction
 
