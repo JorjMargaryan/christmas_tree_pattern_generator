@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="tests_.functionalTests.FunctionalTests-20240918134500" tests="14" file="tests_/functionalTests.py" time="0.043" timestamp="2024-09-18T13:45:00" failures="0" errors="0" skipped="0">
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_file_path_value_contains_not_allowed_symbols" time="0.009" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="152">
+			<!--
+            Test Case: Verify the functionality with file path value containing not allowed symbols.
+        -->
+			<system-out><![CDATA[[]
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_file_path_value_is_empty" time="0.001" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="85">
+			<!--
+            Test Case: Verify the functionality with an empty file path value.
+        -->
+			<system-out><![CDATA[[]
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_file_path_value_is_in_invalid_os_syntax" time="0.002" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="160">
+			<!--
+            Test Case: Verify the functionality with file path containing invalid OS syntax.
+        -->
+			<system-out><![CDATA[[]
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_file_path_value_is_non_latin" time="0.003" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="77">
+			<!--
+            Test Case: Verify the functionality with non-Latin letters in file path value.
+        -->
+			<system-out><![CDATA[[]
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_file_path_value_with_only_allowed_symbols" time="0.004" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="136">
+			<system-out><![CDATA[['files_/@#$%.txt']
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_levels_value_is_empty" time="0.002" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="69">
+			<!--
+            Test Case: Verify the functionality with an empty levels value.
+        -->
+			<system-out><![CDATA[[]
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_levels_value_is_less_than_two" time="0.002" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="61">
+			<!--
+            Test Case: Verify that ValueError is raised for levels value if it is less than 2.
+        -->
+			<system-out><![CDATA[[]
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_levels_value_is_negative" time="0.001" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="101">
+			<!--
+            Test Case: Verify the functionality with levels value as a negative number.
+        -->
+			<system-out><![CDATA[[]
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_levels_value_is_non_integer" time="0.001" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="53">
+			<!--
+            Test Case: Verify the functionality with non-integer levels value.
+        -->
+			<system-out><![CDATA[[]
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_levels_value_is_with_spaces" time="0.005" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="109">
+			<!--
+            Test Case: Verify the functionality with levels value containing spaces.
+        -->
+			<system-out><![CDATA[['files_/validFileWithSpaces.txt']
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_levels_value_is_zero" time="0.002" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="93">
+			<!--
+            Test Case: Verify the functionality with levels value as zero.
+        -->
+			<system-out><![CDATA[[]
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_levels_value_with_other_number_system" time="0.001" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="128">
+			<!--
+            Test Case: Verify the functionality with levels value in other number systems.
+        -->
+			<system-out><![CDATA[[]
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_valid_inputs" time="0.005" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="11">
+			<!--
+            Test Case: Verify the functionality with valid levels and file path.
+        -->
+			<system-out><![CDATA[['validFile.txt']
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.functionalTests.FunctionalTests" name="test_valid_inputs_file_path_contains_directory_name" time="0.006" timestamp="2024-09-18T13:45:00" file="..\..\..\functionalTests.py" line="32">
+			<!--
+            Test Case: Verify the functionality with valid levels and file path. The file path value contains directory name.
+        -->
+			<system-out><![CDATA[['files_/validFile2.txt']
+]]></system-out>
+		</testcase>
+	</testsuite>
+	<testsuite name="tests_.performanceTests.PerformanceTests-20240918134500" tests="3" file="tests_/performanceTests.py" time="0.058" timestamp="2024-09-18T13:45:00" failures="0" errors="0" skipped="0">
+		<testcase classname="tests_.performanceTests.PerformanceTests" name="test_performance_large_levels_value" time="0.051" timestamp="2024-09-18T13:45:00" file="..\..\..\performanceTests.py" line="12">
+			<!--
+            Test Case: Verify the performance with a large number of levels.
+        -->
+			<system-out><![CDATA[['files_/largeLevelsFile.txt']
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.performanceTests.PerformanceTests" name="test_performance_medium_levels_value" time="0.004" timestamp="2024-09-18T13:45:00" file="..\..\..\performanceTests.py" line="40">
+			<!--
+            Test Case: Verify the performance with a medium number of levels.
+        -->
+			<system-out><![CDATA[['files_/mediumLevelsFile.txt']
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.performanceTests.PerformanceTests" name="test_performance_small_levels_value" time="0.003" timestamp="2024-09-18T13:45:00" file="..\..\..\performanceTests.py" line="26">
+			<!--
+            Test Case: Verify the performance with a small number of levels.
+        -->
+			<system-out><![CDATA[['files_/smallLevelsFile.txt']
+]]></system-out>
+		</testcase>
+	</testsuite>
+	<testsuite name="tests_.boundaryTests.BoundaryTests-20240918134500" tests="5" file="tests_/boundaryTests.py" time="2.785" timestamp="2024-09-18T13:45:03" failures="0" errors="0" skipped="0">
+		<testcase classname="tests_.boundaryTests.BoundaryTests" name="test_boundary_file_path_value_is_out_of_range" time="0.002" timestamp="2024-09-18T13:45:00" file="..\..\..\boundaryTests.py" line="47">
+			<!--
+            Test Case: Verify the functionality with the large allowed length for a file path.
+        -->
+			<system-out><![CDATA[[]
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.boundaryTests.BoundaryTests" name="test_boundary_file_path_value_min_length" time="0.003" timestamp="2024-09-18T13:45:00" file="..\..\..\boundaryTests.py" line="55">
+			<!--
+            Test Case: Verify the functionality with the shortest valid file path.
+        -->
+			<system-out><![CDATA[['files_/a.txt']
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.boundaryTests.BoundaryTests" name="test_boundary_high_levels_value" time="2.776" timestamp="2024-09-18T13:45:03" file="..\..\..\boundaryTests.py" line="29">
+			<!--
+            Test Case: Verify the functionality with a very high number of levels.
+        -->
+			<system-out><![CDATA[['files_/veryHighLevelsFile.txt']
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.boundaryTests.BoundaryTests" name="test_boundary_long_file_path_value" time="0.001" timestamp="2024-09-18T13:45:03" file="..\..\..\boundaryTests.py" line="38">
+			<!--
+            Test Case: Verify the functionality with the large allowed length for a file path.
+        -->
+			<system-out><![CDATA[['files_/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.txt']
+]]></system-out>
+		</testcase>
+		<testcase classname="tests_.boundaryTests.BoundaryTests" name="test_boundary_minimum_levels_value" time="0.003" timestamp="2024-09-18T13:45:03" file="..\..\..\boundaryTests.py" line="11">
+			<!--
+            Test Case: Verify the functionality with the minimum valid levels value (2).
+        -->
+			<system-out><![CDATA[['files_/minimumLevelsFile.txt']
+]]></system-out>
+		</testcase>
+	</testsuite>
+</testsuites>
