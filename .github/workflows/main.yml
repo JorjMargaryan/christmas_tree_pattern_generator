@@ -24,11 +24,11 @@ jobs:
         
     - name: Set PYTHONPATH
       run: |
-        export PYTHONPATH=$PYTHONPATH:${{github.workspace}}/christmas_tree_pattern_generator
+        echo "PYTHONPATH=${{github.workspace}}" >> $GITHUB_ENV
 
     - name: Run Christmas Tree Script
       run: |
-        python /tests_/common_/runners_/htmlRunners_/regressionRunner.py
+        python ./tests_/common_/runners_/htmlRunners_/regressionRunner.py
 
     - name: Upload HTML Report
       uses: actions/upload-artifact@v3
